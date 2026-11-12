@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+<defs>
+  <filter id="soft" x="-30%" y="-30%" width="160%" height="170%"><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="shadow" x="-25%" y="-25%" width="150%" height="160%"><feGaussianBlur in="SourceAlpha" stdDeviation="9" result="b"/><feOffset dy="9"/><feComponentTransfer><feFuncA type="linear" slope=".18"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<!-- Quiet peach room, with a soft pool of mint light behind the friends. -->
+<rect width="1024" height="1024" fill="#f8ddca"/>
+<ellipse cx="525" cy="540" rx="365" ry="375" fill="#dce9c9" opacity=".25" filter="url(#soft)"/>
+<ellipse cx="520" cy="875" rx="300" ry="46" fill="#795442" opacity=".15" filter="url(#soft)"/>
+
+<!-- Leaf umbrella: one broad, simple leaf with a visible central rib. -->
+<g filter="url(#shadow)">
+ <path d="M277 340 C333 164 520 104 772 174 C709 350 519 424 277 340Z" fill="#91b97a" stroke="#648a60" stroke-width="7" stroke-linejoin="round"/>
+ <path d="M290 337 C424 288 586 222 761 178" fill="none" stroke="#e1edbd" stroke-width="8" stroke-linecap="round" opacity=".82"/>
+ <path d="M420 289 Q410 232 395 205 M515 256 Q512 205 514 168 M611 224 Q634 192 658 169 M381 305 Q350 278 329 267 M566 239 Q582 286 594 314 M678 202 Q712 230 725 256" fill="none" stroke="#8fb779" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+ <path d="M290 337 Q304 421 365 501" fill="none" stroke="#795d43" stroke-width="12" stroke-linecap="round"/>
+ <path d="M290 337 Q304 421 365 501" fill="none" stroke="#c1a078" stroke-width="4" stroke-linecap="round"/>
+</g>
+
+<!-- Otter body, seated and leaning in to shelter its tiny friend. -->
+<g filter="url(#shadow)">
+ <!-- A soft, tapered tail curls out from behind the body and rests on the ground. -->
+ <path d="M407 784 C374 814 330 842 286 864 C248 884 221 904 227 922 C233 944 267 945 300 930 C354 907 394 878 421 848 C439 828 427 800 407 784Z" fill="#986047" stroke="#86533f" stroke-width="5" stroke-linejoin="round"/>
+ <path d="M247 917 C262 922 282 916 301 907" fill="none" stroke="#c18a69" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+ <ellipse cx="510" cy="652" rx="239" ry="248" fill="#a96d52"/>
+ <ellipse cx="519" cy="711" rx="151" ry="168" fill="#f1dfbd"/>
+ <ellipse cx="523" cy="811" rx="112" ry="38" fill="#d0b992" opacity=".22"/>
+ <!-- far paw resting at the base of the duckling -->
+ <ellipse cx="681" cy="831" rx="75" ry="53" transform="rotate(-15 681 831)" fill="#a96d52"/>
+ <path d="M666 854 Q679 862 689 850 M695 845 Q708 852 718 838" fill="none" stroke="#81503f" stroke-width="4" stroke-linecap="round"/>
+</g>
+
+<!-- Tilted head; the cheeks and ear insets stay large enough to read small. -->
+<g transform="rotate(-7 503 405)" filter="url(#shadow)">
+ <circle cx="350" cy="299" r="55" fill="#a9684e"/>
+ <circle cx="350" cy="299" r="31" fill="#e8c9a4"/>
+ <circle cx="657" cy="303" r="53" fill="#9d6049"/>
+ <circle cx="657" cy="303" r="29" fill="#e8c9a4"/>
+ <ellipse cx="502" cy="404" rx="190" ry="165" fill="#ad7355"/>
+ <ellipse cx="432" cy="294" rx="88" ry="25" fill="#e5b091" opacity=".18"/>
+ <ellipse cx="501" cy="443" rx="139" ry="112" fill="#f1dfbd"/>
+ <!-- eye surrounds, big glossy eyes, clean paired highlights -->
+ <ellipse cx="435" cy="390" rx="44" ry="53" fill="#f9e9ce"/>
+ <ellipse cx="563" cy="379" rx="44" ry="53" fill="#f9e9ce"/>
+ <ellipse cx="439" cy="395" rx="30" ry="39" fill="#263d46"/>
+ <ellipse cx="567" cy="384" rx="30" ry="39" fill="#263d46"/>
+ <ellipse cx="448" cy="382" rx="11" ry="13" fill="#fffdf7"/>
+ <ellipse cx="576" cy="371" rx="11" ry="13" fill="#fffdf7"/>
+ <circle cx="428" cy="407" r="5" fill="#c8e2dd"/>
+ <circle cx="556" cy="396" r="5" fill="#c8e2dd"/>
+ <!-- muzzle and tiny nose -->
+ <ellipse cx="499" cy="449" rx="72" ry="48" fill="#fff4dd"/>
+ <path d="M483 438 Q500 427 517 438 Q514 454 500 456 Q486 454 483 438Z" fill="#70463f"/>
+ <path d="M500 454 Q499 470 486 474 M500 470 Q512 477 523 469" fill="none" stroke="#805447" stroke-width="5" stroke-linecap="round"/>
+ <ellipse cx="390" cy="456" rx="28" ry="14" fill="#e99583" opacity=".38"/>
+ <ellipse cx="606" cy="445" rx="28" ry="14" fill="#e99583" opacity=".36"/>
+</g>
+
+<!-- The duckling nestles against the otter's cream chest. -->
+<g filter="url(#shadow)">
+ <ellipse cx="633" cy="715" rx="94" ry="107" fill="#f2ce68"/>
+ <ellipse cx="636" cy="743" rx="58" ry="61" fill="#fff0bf" opacity=".78"/>
+ <path d="M588 688 Q551 658 568 645 Q600 644 619 672Z" fill="#f4d777"/>
+ <path d="M667 685 Q694 652 709 671 Q711 692 682 705Z" fill="#edc95f"/>
+ <!-- sleeping curved eye and little orange bill -->
+ <path d="M649 700 Q665 712 680 699" fill="none" stroke="#80583e" stroke-width="6" stroke-linecap="round"/>
+ <path d="M685 714 Q709 705 719 716 Q709 728 686 725Z" fill="#e99a59"/>
+ <path d="M698 718 L713 717" stroke="#c87d48" stroke-width="3" stroke-linecap="round"/>
+ <path d="M594 806 Q620 818 645 806 M649 815 Q670 821 685 808" fill="none" stroke="#d99c48" stroke-width="5" stroke-linecap="round"/>
+</g>
+
+<!-- Near arm curves around the duckling: a rounded paw, two soft toe marks. -->
+<g filter="url(#shadow)">
+ <path d="M337 586 C301 650 335 735 420 773 C475 798 528 783 548 749 C568 714 532 688 498 712 C461 739 419 701 433 665 C446 628 382 550 337 586Z" fill="#a96d52" stroke="#925b45" stroke-width="4"/>
+ <ellipse cx="535" cy="750" rx="58" ry="42" transform="rotate(24 535 750)" fill="#bc8060"/>
+ <path d="M518 758 Q529 772 542 768 M541 766 Q552 778 565 770" fill="none" stroke="#885641" stroke-width="4" stroke-linecap="round"/>
+</g>
+
+<!-- Paw holding the umbrella stem, with a tiny stitched heart patch. -->
+<g filter="url(#shadow)">
+ <path d="M301 495 C274 520 278 559 307 576 C336 594 374 579 382 551 C388 529 366 507 349 498Z" fill="#b87958" stroke="#925b45" stroke-width="4"/>
+ <path d="M359 489 Q367 500 373 511" fill="none" stroke="#c5a57a" stroke-width="6" stroke-linecap="round"/>
+ <path d="M329 536 C317 523 301 537 311 548 L327 561 L342 546 C352 535 338 523 329 536Z" fill="#e99b8d" stroke="#fff0d4" stroke-width="3"/>
+ <path d="M307 579 Q324 588 340 581" fill="none" stroke="#80513f" stroke-width="4" stroke-linecap="round"/>
+</g>
+
+<!-- Small ground shadow anchors the pose without adding scenery. -->
+<ellipse cx="523" cy="930" rx="242" ry="24" fill="#8b614d" opacity=".11"/>
+</svg>
